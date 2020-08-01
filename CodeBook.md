@@ -41,7 +41,7 @@ All "Gyro" in column names replaced by "Gyroscope"
 All "BodyBody" in column names replaced by "Body"  
 All "Mag" in column names replaced by "Magnitude"  
 All column names starting with "f" replaced by "Frequency"  
-All column names starting with "t" replaced by "Time"  
+All column names starting with "t" replaced by "Time"    
 
 7. From the data set "allData", creating a second, independent tidy data set with the average of each variable for each activity and each subject  
 tidyData (180 rows, 68 columns) is created by first grouping 'allData' by 'Subject' and 'Activity' and then summarizing this obtained dataset on the basis of mean of each variable for each activity and each subject  
